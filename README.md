@@ -1,2 +1,3 @@
 # School-Code
-Work done in school. Homework, Labs, Projects
+Work done in College. Homework, Labs, Projects, ect.
+A glipse of my skills.

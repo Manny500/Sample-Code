@@ -1,3 +1,3 @@
-# School-Code
-Work done in College. Homework, Labs, Projects, ect.
+# Sample-Code
+Work done in College, Internships. Homework, Labs, Projects, ect.
 A glimpse of my skills.

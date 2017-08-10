@@ -1,0 +1,6 @@
+to run:
+python src/generate_data.py
+
+it will make a file called "timestamps.tsv"
+
+run with -h for help.

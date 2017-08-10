@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head >
+
+	<meta charset="utf-8"/>
+	
+	<title>Timeline | Beta Phase</title>
+
+	<div ng-app>
+	<!---my mark up -->
+	</div>
+
+	<h1> Workflow Events</h1>
+
+	<script src="vis/dist/vis.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/index.css"> 
+
+	<link href="vis/dist/vis.css" rel="stylesheet" type="text/css" />
+
+	<form id="form" action="http://progenity.com">
+
+	<input id="clickHome" type="submit" value="Home" onclick="www.progenity.com" />
+
+	</form>
+
+</head>
+
+<body>
+
+	<style type="text/css">
+
+	.vis-item {
+	  position: absolute;
+	  color: black;
+	  border-color: #1AD11A;
+	  border-width: 1px;
+	  background-color: #D9D9D9;
+	  display: inline-block;
+	  /*overflow: hidden;*/
+	}
+
+	.vis-item.readycheck{
+
+		border-color:  #7CFC00;
+		background-color: #3385FF;
+		color: black;
+
+	}
+
+	.vis-item.gwr{
+
+		border-color:  #7CFC00;
+		background-color: #94FF70;
+		color: black;
+
+	}
+
+	.vis-item.demux{
+
+		border-color:  #7CFC00;
+		background-color: #FF5959;
+		color: black;
+
+	}
+
+	</style>
+
+	<div id="visualization"></div>
+
+	<form id="form1">
+
+	<br>
+
+		Enter id: <input type="text" name="id" id="id" />
+
+	<input id="clickMe" type="button" value="Select" onclick="focus();" />
+
+	<br>
+
+	</form>
+
+	<form id="form3">
+
+	<br>
+
+		Enter id: <input type="text" name="id" id="id1" />
+
+	<input id="clickMe1" type="button" value="Select" onclick="focus();" />
+
+	<br>
+
+	</form>
+
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<p class="one">
+		Drag timeline across to show different dates and times. Point and zoom to focus on an event. Search the output desired by searching its unique id. A verticle red line shows the current time on the timeline. Events are followed by their instance number.
+
+	<br>
+	<br>
+
+		tip: Zoom into timeline until desired detail is shown, then use the search tool to search for the deseried event.
+
+	<br>
+	<br>
+
+		*large datasets may take a couple more seconds to load. Displaying large amounts of events on the timeline at the same time may also slow down the website.
+
+	<br>
+
+	<img id="logo" src="images/progenity-logo.png" alt="Logo">
+	<p\>
+
+</body>
+
+</html>

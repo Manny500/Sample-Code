@@ -1,0 +1,111 @@
+h1{
+
+  font-size: 220%;
+  color: #8291FF;
+  text-decoration: underline;
+  text-align: center;
+  
+}
+
+body, html {
+
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+#headerBar {
+    height: 60px;
+    background: #3DAD00;
+}
+
+#footerBar {
+    height: 90px;
+    background: #3DAD00;
+}
+
+#form1{
+
+  color: #4B0082;
+  padding-left: 1cm;
+
+}
+
+#textBox{
+
+  padding-left: 1cm;
+}
+
+#flower1{
+
+  position: right;
+  min-width: 200px;
+}
+
+#flower{
+
+  /*width: 250px;
+  float: right;*/
+  position: absolute;
+  right: 0;
+  top: 50;
+  width:200;
+  height:200px;
+  z-index: -1;
+  background-attachment: fixed;
+
+  }
+
+rect {
+  fill: transparent;
+  shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.1);
+  shape-rendering: crispEdges;
+}
+
+.axisLine {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: rgba(0, 0, 0, 0.5);
+  stroke-width: 2px;
+}
+
+.dot {
+  fill-opacity: .5;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}

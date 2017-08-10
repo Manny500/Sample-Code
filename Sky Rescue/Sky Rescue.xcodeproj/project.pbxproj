@@ -16,6 +16,8 @@
 		EC5B53DD1F3C1FCF009A9780 /* Sky_RescueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B53DC1F3C1FCF009A9780 /* Sky_RescueUITests.swift */; };
 		EC5B53EC1F3C2829009A9780 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC5B53EB1F3C2829009A9780 /* GameplayScene.sks */; };
 		EC5B53EF1F3C2995009A9780 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B53EE1F3C2995009A9780 /* GameplayScene.swift */; };
+		EC5B53F31F3C3677009A9780 /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B53F21F3C3677009A9780 /* BGClass.swift */; };
+		EC9780351F3D1055007870A1 /* GuideClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9780341F3D1055007870A1 /* GuideClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EC5B53DE1F3C1FCF009A9780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5B53EB1F3C2829009A9780 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
 		EC5B53EE1F3C2995009A9780 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		EC5B53F21F3C3677009A9780 /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
+		EC9780341F3D1055007870A1 /* GuideClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +146,27 @@
 		EC5B53ED1F3C2963009A9780 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EC5B53EE1F3C2995009A9780 /* GameplayScene.swift */,
+				EC5B53F11F3C361A009A9780 /* BG And Guide Classes */,
+				EC5B53F01F3C35F6009A9780 /* Scene Classses */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		EC5B53F01F3C35F6009A9780 /* Scene Classses */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B53EE1F3C2995009A9780 /* GameplayScene.swift */,
+			);
+			name = "Scene Classses";
+			sourceTree = "<group>";
+		};
+		EC5B53F11F3C361A009A9780 /* BG And Guide Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B53F21F3C3677009A9780 /* BGClass.swift */,
+				EC9780341F3D1055007870A1 /* GuideClass.swift */,
+			);
+			name = "BG And Guide Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +306,9 @@
 			files = (
 				EC5B53BF1F3C1FCE009A9780 /* GameViewController.swift in Sources */,
 				EC5B53EF1F3C2995009A9780 /* GameplayScene.swift in Sources */,
+				EC9780351F3D1055007870A1 /* GuideClass.swift in Sources */,
 				EC5B53B71F3C1FCE009A9780 /* AppDelegate.swift in Sources */,
+				EC5B53F31F3C3677009A9780 /* BGClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +557,7 @@
 				EC5B53E31F3C1FCF009A9780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC5B53E41F3C1FCF009A9780 /* Build configuration list for PBXNativeTarget "Sky RescueTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +566,7 @@
 				EC5B53E61F3C1FCF009A9780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC5B53E71F3C1FCF009A9780 /* Build configuration list for PBXNativeTarget "Sky RescueUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +575,7 @@
 				EC5B53E91F3C1FCF009A9780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

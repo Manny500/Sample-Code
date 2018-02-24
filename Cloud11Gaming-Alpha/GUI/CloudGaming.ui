@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CloudGaming</class>
+ <widget class="QDialog" name="CloudGaming">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>805</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QStackedWidget" name="gameInterface">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>805</width>
+     <height>556</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="introScreen"/>
+   <widget class="QWidget" name="gameMenu">
+    <widget class="QLabel" name="catanImage">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>100</y>
+       <width>150</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Settlers of Catan</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="crazyImage">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>100</y>
+       <width>150</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Crazy</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="onlineLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>180</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>          Online Users</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="joinCatan">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>310</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>JOIN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="joinCrazy">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>310</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>JOIN</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>20</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="online">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>181</width>
+       <height>411</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="backRight">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>0</y>
+       <width>396</width>
+       <height>556</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="backLeft">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>410</width>
+       <height>556</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/new/Images/Images/fuschia.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>backLeft</zorder>
+    <zorder>backRight</zorder>
+    <zorder>catanImage</zorder>
+    <zorder>crazyImage</zorder>
+    <zorder>onlineLabel</zorder>
+    <zorder>joinCatan</zorder>
+    <zorder>joinCrazy</zorder>
+    <zorder>label_3</zorder>
+    <zorder>online</zorder>
+   </widget>
+   <widget class="QWidget" name="catanLobby">
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>211</width>
+       <height>511</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="catanPic">
+     <property name="geometry">
+      <rect>
+       <x>219</x>
+       <y>9</y>
+       <width>581</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CATAN&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="playCatan">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>460</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Play Game</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="catanBackground">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>805</width>
+       <height>556</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>catanBackground</zorder>
+    <zorder>listWidget</zorder>
+    <zorder>catanPic</zorder>
+    <zorder>playCatan</zorder>
+   </widget>
+   <widget class="QWidget" name="crazyLobby">
+    <widget class="QListWidget" name="listWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>211</width>
+       <height>511</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="crazyPic">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>10</y>
+       <width>581</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CRAZY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="playCrazy">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>460</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PLAY GAME</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="crazyBackground">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>805</width>
+       <height>556</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>crazyBackground</zorder>
+    <zorder>listWidget_2</zorder>
+    <zorder>crazyPic</zorder>
+    <zorder>playCrazy</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
